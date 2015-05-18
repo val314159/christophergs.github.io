@@ -10,7 +10,7 @@ description: ""
 
 <section class="portfolio-piece">
 
-	<h4>"Digital Grappling"</h4>
+	<h4><b>"Digital Grappling"</b></h4>
 
 	<br>
 	<p><b>Description:</b> 
@@ -18,10 +18,10 @@ description: ""
 	<br>
 
 	This is a fully responsive, single page web application used by thousands of martial artists to help them actively learn
-	Brazilian Jiu-Jitsu when they are unable to train.
+	Brazilian Jiu-Jitsu when they are unable to train at the dojo.
 
 	The application is a playable state diagram for the martial art, and required the creation of thousands of move tree
-	diagrams in order to create a realistic experience. The player is incentivised through game stats, which track their ability
+	schematics in order to create a realistic experience. The player is incentivised through game stats, which track their ability
 	to hit certain moves and promotes them to higher virtual belt rankings accordingly.</p>
 
 	<p><b>Technologies used: </b>Node.js (with express.js), mongodb, backbone.js, bootstrap</p>
@@ -54,7 +54,7 @@ description: ""
 
 <section class="portfolio-piece">
 
-	<h4>"MMA Data Science"</h4>
+	<h4><b>"MMA Data Science"</b></h4>
 
 	<br>
 	<p><b>Description:</b> 
@@ -62,7 +62,7 @@ description: ""
 	<br>
 
 	This is a web scraping site which displays a visualization of a given MMA fighter's career. The tool
-	is able to capture and clean up the data of every listed professional MMA fighter on the fly.
+	is able to capture and clean up the data of every listed professional MMA fighter. 
 
 
 	</p>
@@ -96,7 +96,7 @@ description: ""
 
 <section class="portfolio-piece">
 
-	<h4>Bupa.co.uk: Quote and Buy Application</h4>
+	<h4><b>Bupa.co.uk: Quote and Buy Application</b></h4>
 	<br>
 	<p><b>Description:</b></p> 
 
@@ -125,7 +125,7 @@ description: ""
 
 <section class="portfolio-piece">
 
-	<h4>Stripe-Taxamo subscription integrations for Node.js</h4>
+	<h4><b>Stripe-Taxamo subscription integrations for Node.js</b></h4>
 	<br>
 	<p><b>Description:</b></p> 
 

@@ -14,7 +14,7 @@ description: ""
 
 	<br>
 
-	<p>The other pages on this site are kind of formal, this one is not. Hopefully this will give you a better idea of who I am.
+	<p>I'm 27, from London, and have been living in Beijing for the past 18 months.
 
 	One of my favorite quotes is from mighty Carl Friedrich Gauss:
 

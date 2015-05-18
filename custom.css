@@ -140,7 +140,7 @@ Home Page
 	background-position: center;
 	margin: 0 auto;
 	height: 200px;
-	border-radius: 30px 30px;
+	border-radius: 150px 150px;
 
 }
 
@@ -160,12 +160,13 @@ Home Page
 }
 
 .desc {
-	width: 60%;
+	width: 100%;
+	padding: 0 20%;
 	margin: 0 auto;
 }
 
 .button-guardian {
-	width: 30%;
+	width: 100%;
 	margin: 5% auto;
 	text-align: center;
 }
@@ -183,3 +184,54 @@ Portfolio Page
 	margin: 0 auto;
 	text-align: center;
 }
+
+
+@media (max-width: 480px) {
+	
+	h2 {
+		font-size: 1.2em;
+	}
+
+	.desc {
+		width: 100%;
+	}
+
+	.button-guardian {
+		width: 100%;
+	}
+
+	#goPortfolio button#processing-search-button {
+		margin-bottom: 0;
+	}
+
+
+	.my-photo {
+	background-image: url("assets/themes/bootstrap/resources/images/portrait.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	margin: 0 auto;
+	height: 140px;
+	border-radius: 70px 70px;
+
+	}
+
+	.photo-container {
+	width: 35%;
+	margin: 1% auto;
+
+	}
+
+	.csNav {
+
+	}
+
+	#navButtons {
+		margin: 10% 0;
+		height: 50px;
+		padding: 10px 5px;
+	}
+
+}
+
+
