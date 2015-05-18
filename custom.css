@@ -185,6 +185,14 @@ Portfolio Page
 	text-align: center;
 }
 
+/*=============================
+About Page
+===============================*/
+
+.about-text {
+	padding: 1% 18%;
+}
+
 
 @media (max-width: 480px) {
 	
@@ -230,6 +238,10 @@ Portfolio Page
 		margin: 10% 0;
 		height: 50px;
 		padding: 10px 5px;
+	}
+
+	.about-text {
+		padding: 1% 1%;
 	}
 
 }
