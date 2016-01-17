@@ -19,7 +19,7 @@ body {
 
 .csNav {
 	float: right;
-	width: 30%;
+	width: 45%;
 }
 
 #navButtons {
@@ -230,10 +230,6 @@ About Page
 
 	}
 
-	.csNav {
-
-	}
-
 	#navButtons {
 		margin: 10% 0;
 		height: 50px;
@@ -244,6 +240,8 @@ About Page
 		padding: 1% 1%;
 	}
 
+	.csNav {
+		width: 20%;
+	}
+
 }
-
-
