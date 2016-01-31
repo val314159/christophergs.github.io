@@ -35,7 +35,7 @@ description: ""
 
 		<br><br>
 
-		I also enjoy writing fiction. My Science Fiction short story "Bodyware", which explores the future of wearable technology, was recenctly shortlisted for the Aeon Science Fiction Prize. You can <a href="{{ BASE_PATH }}/Bodyware_Short_Story_by_Christopher_Samiullah.pdf">read the full story here.</a></p>
+		I also enjoy writing fiction. My Science Fiction short story "Bodyware", which explores the future of wearable technology, won the 2014 Aeon Science Fiction Prize. 
 
 
 		<p>Now you know a bit about what makes me tick, and what I can offer. If you have anything you'd like to discuss, please feel free to drop me an email at 
