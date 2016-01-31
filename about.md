@@ -15,9 +15,9 @@ description: ""
 
 	<section class="about-text">
 
-		<p>I'm 27, from London, and have been living in Beijing for the past 18 months.
+		<p>I'm 28, from London, and have been living in Beijing for the past two years.
 
-		One of my favorite quotes is from mighty Carl Friedrich Gauss:
+		One of my favorite quotes is from Carl Friedrich Gauss:
 
 		"It is not knowledge, but the act of learning which grants the greatest enjoyment. When I have clarified and exhausted a subject, then I turn away from it, in order to go into darkness again ..."
 

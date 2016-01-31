@@ -3,50 +3,53 @@ layout: post
 category : IOT
 title: MetaWear Guide Series Part 1
 tagline: "Why use MetaWear?"
-tags : [IOT, Metawear, tutorial]
+tags : [IOT, Metawear, tutorial, guide]
 ---
 
 ###Introduction
 
-This is the first in a series of tutorial posts designed to help you start working with the Metawear platform using the Android API. The series is designed to be followed in order, with the complexity of posts (and the sample project) gradually growing as the series unfolds. We will gradually build a demo project, a wearable app which is able to detect push ups.
+This is the first in a series of tutorial posts which aim to help you start working with the Metawear platform using the Android API. The series is designed to be followed in order, with the complexity of posts (and the sample project) gradually growing as the series unfolds. We will systematically build a demo project, a wearable which is able to detect push ups.
 
-*Some prior knowledge of programming is required, but I've tried to make this as accessible as possible, so no familiarity with Android is assumed. Note that I am not affiliated with the Mbient Labs team, so there may be mistakes. Pull requests are welcome!*
+Some prior knowledge of programming is required, but I've tried to make this as accessible as possible, so no familiarity with Android is assumed. There is quite a big jump from the (excellent) [documentation](https://mbientlab.com/androiddocs/) to the [sample Android app](https://github.com/mbientlab/Metawear-SampleAndroidApp), and this series aims to bridge that gap. Note that I am not affiliated with the Mbient Lab team, so there may be mistakes. Pull requests are welcome!
 
-Here is the full series
+Here is the full series (work in progress)
 
-1) Why use MetaWear? (This Post)
+1) [Why use MetaWear? (This Post)]({{ site.baseurl }}/iot/2016/01/17/metawear-guide-pt1/)
 
 2) [Prerequisites and initial setup]({{ site.baseurl }}/iot/2016/01/24/metawear-guide-pt2/)
 
-3) [Android setup]({{ site.baseurl }}/iot/2016/01/31/metawear-guide-pt3/)
+3) [Connecting to your board]({{ site.baseurl }}/iot/2016/01/31/metawear-guide-pt3/)
 
-4) [Connecting to your board]({{ site.baseurl }}/iot/2016/02/06/metawear-guide-pt4/)
+4) [Using board modules]({{ site.baseurl }}/iot/2016/02/06/metawear-guide-pt4/)
 
-5) Interacting with the board (Streaming) 
+5) [Streaming data]({{ site.baseurl }}/iot/2016/02/07/metawear-guide-pt5/)
 
-6) Dealing with data (Logging)
+*Coming soon*
 
-8) Multiple sensors
+6) Logging data
+
+8) Multiple streams
 
 9) Saving our data to CSV
 
 10) Sending our data over HTTP
 
-----------------------------
-THIS IS WHERE I AM UP TO
+11) Graphing our data
 
-10) A better connection
+12) A better connection
 
-11) Capturing data for longer time durations
+13) Capturing data for longer time durations
 
-12) Processing on the board
+14) Pre-Processing on the board
+
+Every step has corresponding [code on github](https://github.com/ChristopherGS/MetawearGuide) to check against, marked with different branches.
 
 
 
 ## Why MetaWear?
 
 
-MetaWear is made by [mbient labs](https://mbientlab.com/metawear/), and they give describe their reasons for creating the platform like this:
+MetaWear is made by [mbient lab](https://mbientlab.com/metawear/), and they describe their reason for creating the platform like this:
 
 >The MetaWear platform provides a one-stop shop for wearable sensor solutions. Our goal is to completely eliminate the need for product developers to build hardware or write firmware code.
 

@@ -24,8 +24,13 @@ description: ""
 
 <h4>Good working knowledge</h4>
 
-<p>Python, Django, Pandas, D3.js</p>
+<p>Python, Django, Flask, Pandas, scikit-learn, D3.js</p>
 
+<br>
+
+<h4>Basic development</h4>
+
+<p>Android, Spark, SQL</p>
 
 <br>
 

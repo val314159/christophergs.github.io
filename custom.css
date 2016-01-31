@@ -186,6 +186,31 @@ Portfolio Page
 }
 
 /*=============================
+POSTS
+===============================*/
+
+
+.tag_box {
+	display:none;
+}
+
+img[alt=AS_Run] { width: 50%; }
+
+img[alt=Blank_Activity] { width: 60%; }
+
+img[alt=sources_jar] { width: 60%; }
+
+img[alt=android_log] { width: 80%; }
+
+img[alt=board_connected] { width: 80%; }
+
+img[alt=accel_stream] { width: 80%; }
+
+
+
+
+
+/*=============================
 About Page
 ===============================*/
 
