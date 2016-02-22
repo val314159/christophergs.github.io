@@ -28,19 +28,19 @@ Here is the full series (work in progress)
 
 6) Logging data
 
-8) Multiple streams
+7) Multiple streams
 
-9) Saving our data to CSV
+8) Saving our data to CSV
 
-10) Sending our data over HTTP
+9) Sending our data over HTTP
 
-11) A better connection
+10) A better connection
 
-12) Graphing our data
+11) Graphing our data
 
-13) Pre-Processing on the board
+12) Pre-Processing on the board
 
-14) Working with more than one board
+13) Working with more than one board
 
 Every step has corresponding [code on github](https://github.com/ChristopherGS/MetawearGuide) to check against, marked with different branches.
 
