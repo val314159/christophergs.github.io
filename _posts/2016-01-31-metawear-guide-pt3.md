@@ -106,7 +106,7 @@ For those new to Android, here we are logging at the "info" level, hence `Log.i`
 
 ####Connecting to the Board
 
-The MetaWearBoard class is the central class for communicating with your MetaWear board. To start with, we will connect to our board using the MAC address. For simplicity, use the [MetaWear official app](https://play.google.com/store/apps/details?id=com.mbientlab.metawear.app&hl=en) to lookup your board's MAC address (it should in a format like "D5:9C:DC:37:BA:AE")
+The MetaWearBoard class is the central class for communicating with your MetaWear board. To start with, we will connect to our board using the MAC address. For simplicity, use the [MetaWear official app](https://play.google.com/store/apps/details?id=com.mbientlab.metawear.app&hl=en){:target="_blank"} to lookup your board's MAC address (it should in a format like "D5:9C:DC:37:BA:AE")
 
 We add our Bluetooth imports:
 
@@ -244,7 +244,7 @@ Go ahead and run the app. When you press the connect button, your logs should fi
 
 Good stuff! Now that we've connected to our board, we are ready to start playing with its different sensors. Check out part four to see this. 
 
-*Note* You can view all these changes in the [github repository](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.2) on the branch **version-0.2**
+*Note* You can view all these changes in the [github repository](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.2){:target="_blank"} on the branch **version-0.2**
 
 [Next post in the series -->]({{ site.baseurl }}/iot/2016/02/06/metawear-guide-pt4/)
 

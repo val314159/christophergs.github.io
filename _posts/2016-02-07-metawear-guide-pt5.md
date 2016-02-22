@@ -30,12 +30,14 @@ Let's construct a data route for the board accelerometer. To begin, we will add 
 
 
 
-Just like in the previous post where we used `getModule` to access the LED, we do the same for the accelerometer. We'll need to import the module and our switch:
+Just like in the previous post where we used `getModule` to access the LED, we do the same for the accelerometer. We'll need to import the module, our switch, and a couple of other metawear tools:
 
 {% highlight java %}
 import com.mbientlab.metawear.module.Accelerometer;
 import android.widget.Switch;
 import android.widget.CompoundButton;
+import com.mbientlab.metawear.RouteManager;
+import com.mbientlab.metawear.data.CartesianFloat;
 {% endhighlight %}
 
 Now we need to declare the variable (again, same as for the LED), as well as our switch and a few other constants which we will come to soon:
@@ -125,7 +127,7 @@ Take a look - run the app (and connect to the board), when you toggle the accele
 
 Now we're starting get a glimpse of the power of this API. In the next post we'll look at an alternative to streaming.
 
-*Note* You can view all these changes in the [github repository](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.4) on the branch **version-0.4**
+*Note* You can view all these changes in the [github repository](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.4){:target="_blank"} on the branch **version-0.4**
 
 [Next post in the series -->]({{ site.baseurl }}/iot/2016/02/06/metawear-guide-pt6/)
 

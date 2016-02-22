@@ -10,7 +10,7 @@ tags : [IOT, Metawear, tutorial, guide]
 
 This is the first in a series of tutorial posts which aim to help you start working with the Metawear platform using the Android API. The series is designed to be followed in order, with the complexity of posts (and the sample project) gradually growing as the series unfolds. We will systematically build a demo project, a wearable which is able to detect push ups.
 
-Some prior knowledge of programming is required, but I've tried to make this as accessible as possible, so no familiarity with Android is assumed. There is quite a big jump from the (excellent) [documentation](https://mbientlab.com/androiddocs/) to the [sample Android app](https://github.com/mbientlab/Metawear-SampleAndroidApp), and this series aims to bridge that gap. Note that I am not affiliated with the Mbient Lab team, so there may be mistakes. Pull requests are welcome!
+Some prior knowledge of programming is required, but I've tried to make this as accessible as possible, so no familiarity with Android is assumed. There is quite a big jump from the (excellent) [documentation](https://mbientlab.com/androiddocs/){:target="_blank"} to the [sample Android app](https://github.com/mbientlab/Metawear-SampleAndroidApp){:target="_blank"}, and this series aims to bridge that gap. Note that I am not affiliated with the Mbient Lab team, so there may be mistakes. Pull requests are welcome!
 
 Here is the full series (work in progress)
 
@@ -34,13 +34,13 @@ Here is the full series (work in progress)
 
 10) Sending our data over HTTP
 
-11) Graphing our data
+11) A better connection
 
-12) A better connection
+12) Graphing our data
 
-13) Capturing data for longer time durations
+13) Pre-Processing on the board
 
-14) Pre-Processing on the board
+14) Working with more than one board
 
 Every step has corresponding [code on github](https://github.com/ChristopherGS/MetawearGuide) to check against, marked with different branches.
 
@@ -49,7 +49,7 @@ Every step has corresponding [code on github](https://github.com/ChristopherGS/M
 ## Why MetaWear?
 
 
-MetaWear is made by [mbient lab](https://mbientlab.com/metawear/), and they describe their reason for creating the platform like this:
+MetaWear is made by [mbient lab](https://mbientlab.com/metawear/){:target="_blank"}, and they describe their reason for creating the platform like this:
 
 >The MetaWear platform provides a one-stop shop for wearable sensor solutions. Our goal is to completely eliminate the need for product developers to build hardware or write firmware code.
 

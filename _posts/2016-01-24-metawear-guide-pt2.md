@@ -11,28 +11,28 @@ tags : [IOT, Metawear, tutorial]
 
 ###Prerequisites
 
-1) You will need at least one MetaWear sensor, which you can buy from [mbientlab](https://mbientlab.com/metawear/). The code in this series should work for any of the MetaWear platform sensors (with a few small differences depending on the available sensors), but I have only tested it on:
+1) You will need at least one MetaWear sensor, which you can buy from [mbientlab](https://mbientlab.com/metawear/){:target="_blank"}. The code in this series should work for any of the MetaWear platform sensors (with a few small differences depending on the available sensors), but I have only tested it on:
 
 - MetaWear R
 - MetaWear C
 
-2) You will need an Android phone (running on a minimum of Android 4.3) Unfortunately, at the time of writing the Android Emulator does not support bluetooth, which is required for working with the board.
+2) You will need an Android phone (running on a minimum of Android 4.3) Unfortunately, at the time of writing the Android Emulator does not support bluetooth, which is required for working with the board. 
 
-3) You should download and install the [official MetaWear app](https://play.google.com/store/apps/details?id=com.mbientlab.metawear.app&hl=en) on your phone. Once you have downloaded the app, use it to make sure that you have the latest firmware installed but clicking the "Update Firmware" button. We will also refer back to this app in the tutorial. 
+3) You should download and install the [official MetaWear app](https://play.google.com/store/apps/details?id=com.mbientlab.metawear.app&hl=en){:target="_blank"} on your phone. Once you have downloaded the app, use it to make sure that you have the latest firmware installed but clicking the "Update Firmware" button. We will also refer back to this app in the tutorial. 
 
 The are also a number of software requirements, let's tackle them here:   
 
 
 **Step 1: Basic Android Setup**
 
-As per the [google Android docs](http://developer.android.com/training/index.html) the first thing to do is [download and install Android Studio](http://developer.android.com/sdk/installing/index.html?pkg=studio), which gives you the tools you need. It's a big download, so allow some time. Note that Android Studio has a few dependencies, such as the Java Development Toolkit (JDK) version 6 or higher. These are detailed on the Android Studio download page. You may prefer to use other IDEs like Eclipse, but for the purposes of this series, we will refer to Android Studio. 
+As per the [google Android docs](http://developer.android.com/training/index.html){:target="_blank"} the first thing to do is [download and install Android Studio](http://developer.android.com/sdk/installing/index.html?pkg=studio){:target="_blank"}, which gives you the tools you need. It's a big download, so allow some time. Note that Android Studio has a few dependencies, such as the Java Development Toolkit (JDK) version 6 or higher. These are detailed on the Android Studio download page. You may prefer to use other IDEs like Eclipse, but for the purposes of this series, we will refer to Android Studio. 
 
 Start up Android Studio, and on the first screen select "Start a new Android Studio project":
 
 ![start new Android Studio Project]({{site.baseurl}}/assets/images/metawear/metawear_ss_1.jpg)
 
 
-The [google Android docs](http://developer.android.com/training/basics/firstapp/creating-project.html) explain the next screen clearly. For this tutorial I am calling my Application "MetawearGuide", company domain is my github (but could be anything):
+The [google Android docs](http://developer.android.com/training/basics/firstapp/creating-project.html){:target="_blank"} explain the next screen clearly. For this tutorial I am calling my Application "MetawearGuide", company domain is my github (but could be anything):
 
 ![Project details]({{site.baseurl}}/assets/images/metawear/metawear_ss_2.jpg)
 
@@ -52,7 +52,7 @@ On the "Add an activity" screen, select "Blank Activity" and click "Next":
 
 ![Select Blank Activity]({{site.baseurl}}/assets/images/metawear/metawear_ss_4.jpg)
 
-Now, to keep the terminology the same as the [Google tutorial](http://developer.android.com/intl/ja/training/basics/firstapp/creating-project.html), on the final screen we will:
+Now, to keep the terminology the same as the [Google tutorial](http://developer.android.com/intl/ja/training/basics/firstapp/creating-project.html){:target="_blank"}, on the final screen we will:
 
 - Under "Customize the Activity", change the Activity Name to "MyActivity". 
 - Set Layout Name to "activity_my"
@@ -65,13 +65,13 @@ Click "Finish". We've now created our basic Android Application.
 
 **Step 2: Mobile Setup**
 
-Now, we have a default "Hello World" app ready to run in Android Studio. Let's test it. If this is the first time you are using your phone for development, you will need to [enable developer options](http://www.greenbot.com/article/2457986/how-to-enable-developer-options-on-your-android-phone-or-tablet.html). Connect your Android phone to your laptop using a normal USB to USB-micro cable. 
+Now, we have a default "Hello World" app ready to run in Android Studio. Let's test it. If this is the first time you are using your phone for development, you will need to [enable developer options](http://www.greenbot.com/article/2457986/how-to-enable-developer-options-on-your-android-phone-or-tablet.html){:target="_blank"}. Connect your Android phone to your laptop using a normal USB to USB-micro cable. For some Android phones (and depending on your computer OS), you may need to download drivers in order for your phone to be recognized by your computer.
 
 In Android Studio, select "Run" (the button with a green play symbol). It will take a little time while the code compiles. You should then see a popup screen to choose a running device:
 
 ![AS_Run]({{site.baseurl}}/assets/images/metawear/metawear_ss_9.jpg)
 
-Be sure to select your actual phone, rather than using an emulator. Once you select your device, the app will be copied onto your phone, and then open automatically. You should see the "Hello World" app open on your phone. If you have any problems, be sure to review the [Google Tutorial](http://developer.android.com/intl/ja/training/basics/firstapp/creating-project.html), which is very clear.
+Be sure to select your actual phone, rather than using an emulator. Once you select your device, the app will be copied onto your phone, and then open automatically. You should see the "Hello World" app open on your phone. If you have any problems, be sure to review the [Google Tutorial](http://developer.android.com/intl/ja/training/basics/firstapp/creating-project.html){:target="_blank"}, which is very clear.
 
 
 **Step 3: MetaWear Setup**
@@ -129,6 +129,8 @@ dependencies {
 }
 {% endhighlight %}
 
+Be sure to recompile after adding these dependencies to your gradle files - otherwise you will not be able to complete the next step.
+
 We now need to associate the source code with the AAR package (an 'aar' bundle is the binary distribution of an Android Library Project). To do this we switch the project view to display the project structure:
 
 ![Blank_Activity]({{site.baseurl}}/assets/images/metawear/metawear_ss_5.jpg)
@@ -182,6 +184,6 @@ At this point we have done our basic setup. If you run the app, you should see t
 
 Now we're ready to start using the MetaWear - see part three.
 
-*Note* You can view all these changes in the [github repository](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.1) on the branch **version-0.1**
+*Note* You can view all these changes in the [github repository](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.1){:target="_blank"} on the branch **version-0.1**
 
 [Next post in the series -->]({{ site.baseurl }}/iot/2016/01/31/metawear-guide-pt3/)

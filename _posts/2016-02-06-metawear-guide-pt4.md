@@ -82,11 +82,12 @@ private final ConnectionStateHandler stateHandler= new ConnectionStateHandler() 
             } catch (UnsupportedModuleException e) {
                 e.printStackTrace();
             }
+        }
 {% endhighlight %}
 
 <br>
 
-The last thing we need to do is add the `onClick` handlers, also within the `connected()` code block. To quote [the docs](https://mbientlab.com/androiddocs/#led): 
+The last thing we need to do is add the `onClick` handlers, also within the `connected()` code block. To quote [the docs](https://mbientlab.com/androiddocs/#led){:target="_blank"}: 
 
 >LED patterns function as a pulse with four main parameters to modify: rise time, high time, fall time, and duration. These parameters are modified using the ColorChannelEditor and each color channel (rgb) is configured independent of the other colors allowing you to program different patterns for each color.
 
@@ -125,6 +126,6 @@ Go ahead and run the app - you should see the LED turn on and off when you press
 
 In the next section we will look at streaming data.
 
-*Note* You can view all these changes in the [github repository](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.3) on the branch **version-0.3**
+*Note* You can view all these changes in the [github repository](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.3){:target="_blank"} on the branch **version-0.3**
 
 [Next post in the series -->]({{ site.baseurl }}/iot/2016/02/07/metawear-guide-pt5/)
