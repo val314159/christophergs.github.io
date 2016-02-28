@@ -37,14 +37,14 @@ description: ""
 
 		<div class="col-lg-5 col-sm-12">
 			<p><em>Desktop Site</em></p>
-			<img src="{{ ASSET_PATH }}bootstrap/resources/images/rsz_digital_grappling_dt.jpg"/>
+			<img src="{{ ASSET_PATH }}/resources/images/rsz_digital_grappling_dt.jpg"/>
 		</div>
 
 		<div class="col-lg-2 portfolio-image"></div>
 
 		<div class="col-lg-5 col-sm-12 portfolio-image">
 			<p><em>Mobile Site</em></p>
-			<img src="{{ ASSET_PATH }}bootstrap/resources/images/rsz_digital_grappling_mb.jpg"/> 
+			<img src="{{ ASSET_PATH }}/resources/images/rsz_digital_grappling_mb.jpg"/> 
 		</div>
 	</div>
 
@@ -84,7 +84,7 @@ description: ""
 
 
 		<div class="col-xs-12">
-			<img src="{{ ASSET_PATH }}bootstrap/resources/images/mma2.jpg"/>
+			<img src="{{ ASSET_PATH }}/resources/images/mma2.jpg"/>
 		</div>
 
 
@@ -114,7 +114,7 @@ description: ""
 	<div class="row">
 
 		<div class="col-lg-12 col-sm-12">
-			<img src="{{ ASSET_PATH }}bootstrap/resources/images/rsz_bby.jpg"/>
+			<img src="{{ ASSET_PATH }}/resources/images/rsz_bby.jpg"/>
 		</div>
 
 	</div>
