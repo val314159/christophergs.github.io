@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metawear Guide Series Part 4
+title: MetaWear Guide Series Part 4
 category : IOT
 tagline: Using Board Modules
 tags : [IOT, Metawear, tutorial]
@@ -122,7 +122,7 @@ led_off=(Button)findViewById(R.id.led_off);
             });
 {% endhighlight %}
 
-Go ahead and run the app - you should see the LED turn on and off when you press the *LED on* and *LED off* buttons (make sure you connect to the board first!). Now we're really making progress. Spend some time playing with different settings for the LED duration, intensity and color. 
+Go ahead and run the app - you should see the LED turn on and off when you press the *LED on* and *LED off* buttons. **Make sure you connect to the board first!** You always need to connect to the board before you can do anything with it. Now we're really making progress. Spend some time playing with different settings for the LED duration, intensity and color. 
 
 In the next section we will look at streaming data.
 

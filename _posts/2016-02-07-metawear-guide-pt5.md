@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metawear Guide Series Part 5
+title: MetaWear Guide Series Part 5
 category : IOT
 tagline: Streaming Data
 tags : [IOT, Metawear, tutorial]
@@ -40,7 +40,7 @@ import com.mbientlab.metawear.RouteManager;
 import com.mbientlab.metawear.data.CartesianFloat;
 {% endhighlight %}
 
-Now we need to declare the variable (again, same as for the LED), as well as our switch and a few other constants which we will come to soon:
+We need to declare the variable (again, same as for the LED), as well as our switch and a few other constants which we will come to soon:
 
 {% highlight java %}
 private Switch accel_switch;
@@ -66,7 +66,7 @@ public void connected() {
 
 <br>
 
-Now we will create an `onClick` listener for the accelerometer switch. The syntax for the switch onClick is a little different, but the concept is the same:
+Next we will create an `onClick` listener for the accelerometer switch. The syntax for the switch onClick is a little different, but the concept is the same:
 
 {% highlight java %}
 Switch accel_switch = (Switch) findViewById(R.id.accel_switch);
@@ -80,7 +80,7 @@ Switch accel_switch = (Switch) findViewById(R.id.accel_switch);
 <br>
 
 
-Now we create our accelerometer data route within the switch `isChecked` code block:
+We create our accelerometer data route within the switch `isChecked` code block:
 
 {% highlight java %}
 
@@ -119,17 +119,17 @@ if (isChecked) {
 
 There is a lot happening in the code block above. A few things to notice - we setup the data route with `routeData` and then select `stream` as our method (we could also use logging, which we will look at in the next post). We then have a completion manager for the stream, and we use the `subscribe` method to access the resulting stream. Only after all this is setup do we actually invoke the `start` method.
 
-Take a look - run the app (and connect to the board), when you toggle the accelerometer switch on, you should see a stream of logs in the console representing the x, y and z readings from your board's accelerometer:
+Take a look - run the app (remember to connect to the board first): when you toggle the accelerometer switch on, you should see a stream of logs in the console representing the x, y and z readings from your board's accelerometer:
 
 ![accel_stream]({{site.baseurl}}/assets/images/metawear/metawear_ss_13.jpg)
 
 <br>
 
-Now we're starting get a glimpse of the power of this API. In the next post we'll look at an alternative to streaming.
+Now you are familiar with the basics of streaming. In the next post we'll look at logging, which is useful when dealing with an inconsistent bluetooth connection.
 
 *Note* You can view all these changes in the [github repository](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.4){:target="_blank"} on the branch **version-0.4**
 
-[Next post in the series -->]({{ site.baseurl }}/iot/2016/02/06/metawear-guide-pt6/)
+[Next post in the series -->]({{ site.baseurl }}/iot/2016/02/22/metawear-guide-pt6/)
 
 
 

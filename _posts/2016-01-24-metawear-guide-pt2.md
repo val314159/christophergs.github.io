@@ -67,11 +67,11 @@ Click "Finish". We've now created our basic Android Application.
 
 Now, we have a default "Hello World" app ready to run in Android Studio. Let's test it. If this is the first time you are using your phone for development, you will need to [enable developer options](http://www.greenbot.com/article/2457986/how-to-enable-developer-options-on-your-android-phone-or-tablet.html){:target="_blank"}. Connect your Android phone to your laptop using a normal USB to USB-micro cable. For some Android phones (and depending on your computer OS), you may need to download drivers in order for your phone to be recognized by your computer.
 
-In Android Studio, select "Run" (the button with a green play symbol). It will take a little time while the code compiles. You should then see a popup screen to choose a running device:
+In Android Studio, select "Run" (the button with a green play symbol). It will take a little time while the code compiles (this shouldn't take more than a few minutes). You should then see a popup screen to choose a running device:
 
 ![AS_Run]({{site.baseurl}}/assets/images/metawear/metawear_ss_9.jpg)
 
-Be sure to select your actual phone, rather than using an emulator. Once you select your device, the app will be copied onto your phone, and then open automatically. You should see the "Hello World" app open on your phone. If you have any problems, be sure to review the [Google Tutorial](http://developer.android.com/intl/ja/training/basics/firstapp/creating-project.html){:target="_blank"}, which is very clear.
+Be sure to select your actual phone, rather than using an emulator. Once you select your device, the app will be copied onto your phone, and then open automatically after a few seconds. You should see the "Hello World" app open on your phone. If you have any problems, be sure to review the [Google Tutorial](http://developer.android.com/intl/ja/training/basics/firstapp/creating-project.html){:target="_blank"}, which is very clear.
 
 
 **Step 3: MetaWear Setup**
@@ -93,7 +93,7 @@ and also say *Then, add the compile element to the dependencies closure in the m
 
 ```
 dependencies {
-    compile 'com.mbientlab:metawear:2.3.0'
+    compile 'com.mbientlab:metawear:2.4.0'
 }
 ```
 
@@ -125,11 +125,13 @@ and then our *build.gradle(Module: app)* like so:
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.1' //You will need this later
-    compile 'com.mbientlab:metawear:2.3.0' 
+    compile 'com.mbientlab:metawear:2.4.0' 
 }
 {% endhighlight %}
 
 Be sure to recompile after adding these dependencies to your gradle files - otherwise you will not be able to complete the next step.
+
+Also, whilst the Android API version is correct at the time of writing, it is under rapid development and is likely to change regularly. Be sure to check the [AndroidAPI github repo](https://github.com/mbientlab/Metawear-AndroidAPI) for the latest version information.
 
 We now need to associate the source code with the AAR package (an 'aar' bundle is the binary distribution of an Android Library Project). To do this we switch the project view to display the project structure:
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metawear Guide Series Part 3
+title: MetaWear Guide Series Part 3
 category : IOT
 tagline: Connecting to your Board
 tags : [IOT, Metawear, tutorial]
@@ -78,7 +78,7 @@ Before we go any further, let's make sure we have a way to log what we are doing
 import `android.util.Log;`, then declare a constant to identify our logs:
 `private static final String TAG = "MetaWear";`
  
-Let's run a quick test to the `onCreate` method:
+Let's run a quick test in the `onCreate` method:
 
 {% highlight java %}
 
@@ -102,6 +102,9 @@ For those new to Android, here we are logging at the "info" level, hence `Log.i`
 
 ![android_log]({{site.baseurl}}/assets/images/metawear/metawear_ss_10.jpg)
 
+
+Without this filter, the logs will be too noisy to be much use.
+
 <br>
 
 ####Connecting to the Board
@@ -110,10 +113,10 @@ The MetaWearBoard class is the central class for communicating with your MetaWea
 
 We add our Bluetooth imports:
 
-```
+{% highlight java %}
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothManager;
-```
+{% endhighlight %}
 
 Then declare our variables in our `MyActivity` class
 {% highlight java %}
@@ -236,7 +239,10 @@ Then add an onClick listener inside our `onCreate` method. This is what it looks
 
 <br>
 
-Go ahead and run the app. When you press the connect button, your logs should first tell you that you have clicked the button, and then show "connected".
+Go ahead and run the app. When you press the connect button, your logs should first tell you that you have clicked the button, and then show "connected". If you have a problem connecting, be sure to try the following:
+1. If you had previously paired with the device close any apps and programs that were paired to it and toggle the bluetooth radio on these devices on and off.
+2. If this is your first time pairing this device make sure that your device is charged
+3. Make sure that you have a device that supports bluetooth 4.0.
 
 ![board_connected]({{site.baseurl}}/assets/images/metawear/metawear_ss_11.jpg)
 
