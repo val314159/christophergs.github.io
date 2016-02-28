@@ -8,7 +8,7 @@ tags : [IOT, Metawear, tutorial]
 
 *This is part 4 of a multipart series showing you how to get started with the MetaWear platform. [View the contents of the series to easily skip forwards or backwards]({{ site.baseurl }}/iot/2016/01/17/metawear-guide-pt1/)*
 
-####About Modules
+#### About Modules
 
 Now that we have established a connection to the board, we can begin interacting with modules. 
 

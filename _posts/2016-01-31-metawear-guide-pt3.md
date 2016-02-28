@@ -8,7 +8,7 @@ tags : [IOT, Metawear, tutorial]
 
 *This is part 3 of a multipart series showing you how to get started with the MetaWear platform. [View the contents of the series to easily skip forwards or backwards]({{ site.baseurl }}/iot/2016/01/17/metawear-guide-pt1/)*
 
-####Binding the Service
+#### Binding the Service
 
 For us to interact with the MetaWear board, we need to bind the Bluetooth service in our application and keep a reference to it. This is one of the more confusing parts of working with the MetaWear platform, and we'll continue to explore it as the series unfolds. For now, in your *MyActivity.java* file replace the code with the following:
 
@@ -71,7 +71,7 @@ This means that any Android activity or fragment where you want to access your M
 
 <br>
 
-####Logging
+#### Logging
 
 Before we go any further, let's make sure we have a way to log what we are doing. We will need this a lot.
 
@@ -107,7 +107,7 @@ Without this filter, the logs will be too noisy to be much use.
 
 <br>
 
-####Connecting to the Board
+#### Connecting to the Board
 
 The MetaWearBoard class is the central class for communicating with your MetaWear board. To start with, we will connect to our board using the MAC address. For simplicity, use the [MetaWear official app](https://play.google.com/store/apps/details?id=com.mbientlab.metawear.app&hl=en){:target="_blank"} to lookup your board's MAC address (it should in a format like "D5:9C:DC:37:BA:AE")
 

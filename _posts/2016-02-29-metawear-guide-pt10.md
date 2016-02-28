@@ -87,7 +87,7 @@ That's it! Now when we run our app we start out on our *ScannerActivity* screen,
 
 As with all the other posts in the series, the code is availabe on github. Check branch **version-0.9** in the [github repo](https://github.com/ChristopherGS/MetaWearGuide/tree/version-0.9){:target="_blank"}
 
-###Conclusion
+### Conclusion
 
 If you've followed this series all the way through, you should now be ready to use other sensors on your board, and try different combinations of board features. The MetaWear platform is very versatile, and there are many areas I was not able to touch on in this introduction. Hopefully this guide helped to get you over the initial learning curve, so you can focus on building something exciting.
 

@@ -6,7 +6,7 @@ tagline: "Why use MetaWear?"
 tags : [IOT, Metawear, tutorial, guide]
 ---
 
-###Introduction
+## Introduction
 
 This is the first in a series of tutorial posts which aim to help you start working with the Metawear platform using the Android API. The series is designed to be followed in order, with the complexity of posts (and the sample project) gradually growing as the series unfolds.
 
@@ -24,7 +24,7 @@ Here is the full series
 
 5) [Streaming Data]({{ site.baseurl }}/iot/2016/02/07/metawear-guide-pt5/)
 
-6) [Logging Data]({{ site.baseurl }}/iot/2016/02/07/metawear-guide-pt6/)
+6) [Logging Data]({{ site.baseurl }}/iot/2016/02/22/metawear-guide-pt6/)
 
 7) [Multiple Streams]({{ site.baseurl }}/iot/2016/02/26/metawear-guide-pt7/)
 

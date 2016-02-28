@@ -9,7 +9,7 @@ tags : [IOT, Metawear, tutorial]
 
 *This is part 2 of a multipart series showing you how to get started with the MetaWear platform. [View the contents of the series to easily skip forwards or backwards]({{ site.baseurl }}/iot/2016/01/17/metawear-guide-pt1/)*
 
-###Prerequisites
+### Prerequisites
 
 1) You will need at least one MetaWear sensor, which you can buy from [mbientlab](https://mbientlab.com/metawear/){:target="_blank"}. The code in this series should work for any of the MetaWear platform sensors (with a few small differences depending on the available sensors), but I have only tested it on:
 
