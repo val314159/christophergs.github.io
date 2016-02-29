@@ -34,9 +34,10 @@ private BluetoothDevice btDevice;
 {% endhighlight %}
 
 
-Next, our `onCreate` method, we add the reference to the data that was passed from *ScannerActivity*, i.e. the reference to the board:
+Next, our `onCreate` method, we add the reference to the data that was passed from *ScannerActivity*, i.e. the reference to the board, and create a new intent for our BLE service:
 
 `btDevice= getIntent().getParcelableExtra(EXTRA_BT_DEVICE);`
+`getApplicationContext().bindService(new Intent(this, MetaWearBleService.class), this, BIND_AUTO_CREATE);`
 
 
 We are no longer going to rely on a hard-coded MAC address to identify the board, so we re-write our `onServiceConnected` method, removing the `retrieveBoard` method and any calls to it:
@@ -95,6 +96,7 @@ Some suggested resources to help you continue:
 
 - The [Android API docs](https://mbientlab.com/androiddocs/)
 - The [Android Sample app](https://github.com/mbientlab/Metawear-SampleAndroidApp)
+- The [Fragment Navigation Drawer](https://github.com/codepath/android_guides/wiki/Fragment-Navigation-Drawer), which is used in the sample app
 - The [Metawear Community Forum](http://community.mbientlab.com/)
 
 Finally, a big thank you to the team at mbientlab - you are guys are doing a great job. Keep it up!

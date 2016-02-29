@@ -20,6 +20,7 @@ Depending on which board you are working with, you'll want either the [MMA8452Q]
 import com.mbientlab.metawear.module.Bmi160Accelerometer;
 import com.mbientlab.metawear.module.Bmi160Gyro;
 import com.mbientlab.metawear.module.Bmi160Gyro.*;
+import com.mbientlab.metawear.AsyncOperation;
 {% endhighlight %}
 
 Note that we also import with the `*` which is to also import configuration methods used later.
@@ -44,6 +45,14 @@ We will be streaming data from both the accelerometer and the gyroscope, so let'
 In *activity_my.xml* we move our connect and LED buttons up (by adjusting the marginTop property and removing the centerVertical property) and add two new text views for showing the sensor readings:
 
 {% highlight java %}
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:id="@+id/connect"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
 	 <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -157,7 +166,21 @@ Note that the stream keys are different for each route. After the second routeMa
 
 Try running the app - when you tap the "Toggle Both" button, you should see readings for both the Accelerometer and the Gyroscope in the logcat.
 
-Now let's also update the readings in the UI. If we just use a `setText` inside the switch code, [we will trigger a WrongThreadException](http://stackoverflow.com/questions/5161951/android-only-the-original-thread-that-created-a-view-hierarchy-can-touch-its-vi), so we will need to setup a little bit of extra code to avoid this. At the end of the activity, we add:
+Now let's also update the readings in the UI. Declare our variables first:
+
+{% highlight java %}
+TextView accelData;
+TextView gyroData;
+{% endhighlight %}
+
+Then in `onCreate` hook them up:
+
+{% highlight java %}
+accelData = (TextView) findViewById(R.id.textAccel);
+gyroData = (TextView) findViewById(R.id.textGyro);
+{% endhighlight %}
+
+If we just use a `setText` inside the switch code, [we will trigger a WrongThreadException](http://stackoverflow.com/questions/5161951/android-only-the-original-thread-that-created-a-view-hierarchy-can-touch-its-vi), so we will need to setup a little bit of extra code to avoid this. At the end of the activity, we add:
 
 {% highlight java %}
 public void sensorMsg(String msg, final String sensor) {
