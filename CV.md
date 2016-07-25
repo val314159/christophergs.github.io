@@ -12,11 +12,7 @@ description: ""
 
 <h4>Proficient</h4>
 
-<p><b>Front End: </b>Javascript, JQuery, Backbone.js, HTML5, Bootstrap</p>
-
-<p><b>Server Side: </b>Node.js, Express.js </p>
-
-<p><b>NoSQL: </b>MongoDB</p>
+<p>Python (Flask, Django), Javascript (JQuery, Backbone.js), Node.js (Express), HTML5 </p>
 
 <p><b>Version Control: </b>Git</p>
 
@@ -24,13 +20,14 @@ description: ""
 
 <h4>Good working knowledge</h4>
 
-<p>Python, Django, Flask, Pandas, scikit-learn, D3.js</p>
+<p>Python Data Analysis/Machine Learning (Pandas, scikit-learn), React.js, D3.js</p>
+<p><b>NoSQL: </b>MongoDB</p>
 
 <br>
 
 <h4>Basic development</h4>
 
-<p>Android, Spark, SQL</p>
+<p>Android, Apache Spark, SQL</p>
 
 <br>
 
