@@ -25,9 +25,12 @@ description: ""
 
 		<br><br>
 
-		I'm currently spending a lot of time improving my Python skills, which is in large part due to my interest in Machine Learning. 
+		I'm a full stack developer. I really enjoy writing code in Python, and co-organize the <a href="http://www.meetup.com/Beijing-Python/">Beijing Python meetup.</a>  
 
-		I've also begun exploring wearable development, which has been stimulated by my interest in the Internet of Things. 
+		I recently built a <a href="https://www.kickstarter.com/projects/1489178162/rolltec-grappling-the-first-wearable-made-for-grap/">prototype wearable</a> which has
+		allowed me to develop my understanding of machine learning with scikit-learn and the scientific python stack.
+
+		I've also recently built a customer-facing web application using React. I'll definitely be using this more, as React is brilliant.
 
 		<br><br>
 
@@ -35,7 +38,7 @@ description: ""
 
 		<br><br>
 
-		I also enjoy writing fiction. My Science Fiction short story "Bodyware", which explores the future of wearable technology, won the 2014 Aeon Science Fiction Prize. 
+		I also enjoy reading and writing fiction. My Science Fiction short story "Bodyware", which explores the future of wearable technology, won the <a href="http://www.albedo1.com/2015/07/16/aeon-award-2014-winners/">2014 Aeon Science Fiction Prize.</a> 
 
 
 		<p>Now you know a bit about what makes me tick, and what I can offer. If you have anything you'd like to discuss, please feel free to drop me an email at 

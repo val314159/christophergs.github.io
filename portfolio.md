@@ -9,6 +9,79 @@ description: ""
 <h2>Selected Work</h2>
 
 <section class="portfolio-piece">
+	<h4><b><i>Rolltec</i> Wearable for Martial Artists</b></h4>
+	<br>
+	<p><b>Description:</b> 
+	<br>
+	I built the prototype of this wearable for grappling martial artists between October 2015 and April 2016. It consists of:</p>
+
+	<ol>
+	<li>The hardware: the shirt and the sensors (accelerometer and gyroscope, made by the great guys at <a href="https://mbientlab.com">mbient lab)</a></li>
+	<li>An Android mobile app which streams data from the sensors</li>
+	<li>A Python (Flask) server which conducts machine learning classification on the data to give users insights into their training.</li>
+
+	</ol>
+
+	<p>
+
+	I am no longer actively developing this project. <a href="https://github.com/ChristopherGS/rolltec_motion">I have open sourced all code and data on my github.</a>
+
+	Unfortunately, attempts to crowdfund the project were unsuccessful. <a href="https://www.kickstarter.com/projects/1489178162/rolltec-grappling-the-first-wearable-made-for-grap/">You can see the kickstarter campaign here.</a>
+
+	</p>
+
+	<p>
+
+	This project was challenging and rewarding for a number of reasons. The data science classification required a lot of exploration of scikit-learn, as well as other Python machine learning libraries such as Hidden Markov Models with <a href="https://github.com/hmmlearn/hmmlearn">hmmlearn.</a> The data processing required extensive use of pandas, as well as numpy, matplotlib and other libraries from the scientific Python stack. I also taught myself Android for the project.
+	</p>
+
+	
+
+	<div class="row">
+
+		<div class="col-lg-5 col-sm-12">
+			<p><em>Wearable Mobile App</em></p>
+			<img src="{{ ASSET_PATH }}/resources/images/app-examples2.jpg"/>
+		</div>
+
+		<div class="col-lg-2 portfolio-image"></div>
+
+		<div class="col-lg-5 col-sm-12 portfolio-image">
+			<p><em>Wearable Components</em></p>
+			<img src="{{ ASSET_PATH }}/resources/images/rolltec_diagrams-04cropped.jpg"/> 
+		</div>
+	</div>
+
+</section>
+
+<section class="portfolio-piece">
+	<h4><b><i>Emergency Response</i> First Aid Testing</b></h4>
+	<br>
+	<p><b>Description:</b> 
+	<br>
+
+	A fully response, single page web application used to examine first aid students in Sydney.
+	<p><b>Technologies used: </b>Django (with djangorestframework), React</p>
+	<p><b>Live URL: </b><a href="http://www.resus.net.au/login/">resus.net.au</a></p>
+
+	<div class="row">
+
+		<div class="col-lg-5 col-sm-12">
+			<p><em>Desktop Site</em></p>
+			<img src="{{ ASSET_PATH }}/resources/images/emergency_response_desktop_scr.jpg"/>
+		</div>
+
+		<div class="col-lg-2 portfolio-image"></div>
+
+		<div class="col-lg-5 col-sm-12 portfolio-image">
+			<p><em>Mobile Site</em></p>
+			<img src="{{ ASSET_PATH }}/resources/images/emergency_response_mobile_scre.jpg"/> 
+		</div>
+	</div>
+
+</section>
+
+<section class="portfolio-piece">
 
 	<h4><b>"Digital Grappling"</b></h4>
 
@@ -17,7 +90,7 @@ description: ""
 
 	<br>
 
-	This is a fully responsive, single page web application used by thousands of martial artists to help them actively learn
+	This is a fully responsive, single page web application used by over 5000 martial artists to help them actively learn
 	Brazilian Jiu-Jitsu when they are unable to train at the dojo.
 
 	The application is a playable state diagram for the martial art, and required the creation of thousands of move tree

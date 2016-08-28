@@ -14,20 +14,20 @@ description: ""
 
 <p>Python (Flask, Django), Javascript (JQuery, Backbone.js), Node.js (Express), HTML5 </p>
 
-<p><b>Version Control: </b>Git</p>
+<p>Version Control: Git</p>
 
 <br>
 
 <h4>Good working knowledge</h4>
 
 <p>Python Data Analysis/Machine Learning (Pandas, scikit-learn), React.js, D3.js</p>
-<p><b>NoSQL: </b>MongoDB</p>
+<p>NoSQL: MongoDB, SQL: Postgres </p>
 
 <br>
 
 <h4>Basic development</h4>
 
-<p>Android, Apache Spark, SQL</p>
+<p>Android, Apache Spark</p>
 
 <br>
 
