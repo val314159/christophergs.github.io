@@ -38,7 +38,7 @@ description: ""
 
 		<br><br>
 
-		I also enjoy reading and writing fiction. My Science Fiction short story "Bodyware", which explores the future of wearable technology, won the <a href="http://www.albedo1.com/2015/07/16/aeon-award-2014-winners/">2014 Aeon Science Fiction Prize.</a> 
+		I also enjoy reading and writing fiction. My Science Fiction short story "Bodyware", which explores the future of wearable technology, won the <a href="http://www.albedo1.com/2015/07/16/aeon-award-2014-winners/">2014 Aeon Science Fiction Prize.</a> </p>
 
 
 		<p>Now you know a bit about what makes me tick, and what I can offer. If you have anything you'd like to discuss, please feel free to drop me an email at 
