@@ -57,10 +57,10 @@ description: ""
 <section class="portfolio-piece">
 	<h4><b><i>Emergency Response</i> First Aid Testing</b></h4>
 	<br>
-	<p><b>Description:</b> 
+	<p><b>Description:</b> </p>
 	<br>
 
-	A fully response, single page web application used to examine first aid students in Sydney.
+	<p>A fully response, single page web application used to examine first aid students in Sydney.</p>
 	<p><b>Technologies used: </b>Django (with djangorestframework), React</p>
 	<p><b>Live URL: </b><a href="http://www.resus.net.au/login/">resus.net.au</a></p>
 
