@@ -55,7 +55,7 @@ healthcare clinic startups in China.</p>
 <br>
 
 <p><b>October 2013 - Present: Freelance Developer</b></p>
-<p>Building interesting things, some of which can be seen in my <a href="/portfolio.html">portfolio</a>.</p>
+<p>Building interesting things, some of which can be seen in my <a href="/portfolio">portfolio</a>.</p>
 
 <br>
 
