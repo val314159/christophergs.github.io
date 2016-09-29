@@ -24,12 +24,12 @@ application - it is indirect.
 
 Let's begin with an analogy:
 
-An assassin wishes to poison people in a restaurant (I've been watching __Game of Thrones__, sorry). The assassin secretly puts poison in the restaurant's wine, and then a waiter unknowingly serves the poisoned wine to the victim. The victim drinks the wine during the course of their meal and then suffers. 
+An assassin wishes to poison people in a restaurant (I've been watching _Game of Thrones_, sorry). The assassin secretly puts poison in the restaurant's wine, and then a waiter unknowingly serves the poisoned wine to the victim(s). The victim(s) drinks the wine during the course of their meal and then suffers. 
 
 In the context of the web, the attacker "injects" the malicious code into the web application server, fully expecting that the server
-will then unknowingly serve the malicious code to a visitor of the site. To continue the analogy, the victim drinking the wine is the website visitor's browser executing the Javascript of the webpage. Where the analogy breaks down is that a restaurant can only have a limited number of visitors, whereas a website can serve millions of browser clients.
+will then unknowingly serve the malicious code to a visitor of the site. To continue the analogy, the victim drinking the wine is the website visitor's browser executing the Javascript of the webpage. Where the analogy breaks down is that a restaurant can only have a limited number of visitors, whereas a website can serve millions.
 
-Clearly the above is an over-simplification, but hopefully it highlights that an XSS attack requires a series of steps in order to work. Now let's get into some more detail...
+Clearly, the analogy is a bit a of a stretch, but hopefully it highlights that an XSS attack requires a series of steps in order to work. Now let's get into some more detail...
 
 
 ## Understanding XSS
@@ -40,10 +40,9 @@ Most definitions of XSS will explain that it is:
 
 _OK, so what does that mean?_ First, let's examine "code injection": 
 
-Many websites accept user input, for example when you fill out form information to enter personal details or write comments. This user-generated information may be temporarily stored on a web server, or saved to a database. If the same website then displays this user generated information somewhere on its pages (i.e. in its HTML), let's say if it has a section called "most hilarious comment of the week"
-which pulls user-generated comments from the database, then there is a risk. The risk comes from the assumption that the user generated content is just text. But an attacker could have entered a malicious script instead of text into the form, and if this is displayed in the user's browser, then it could be damaging.
+Many websites accept user input, for example when you fill out form information to enter personal details or write comments. This user-generated information may be temporarily stored on a web server, or saved to a database. If the same website then displays this user generated information somewhere on its pages (i.e. in its HTML), then there is a risk. The risk comes from the assumption that the user generated content is just text. But an attacker could have entered a malicious script instead of text into the form, and if this is displayed in the user's browser, then it could be damaging.
 
-So the "code injection" occurs when the malicious script is inserted stored on the web server/database (where it is passive), and when it is inserted into the HTML and served to a user's browser (where it attacks). 
+So the "code injection" occurs when the malicious script is inserted into the web server/database (where it is passive), and when it is inserted into the HTML and served to a user's browser (where it attacks). 
 
 ***
 
@@ -79,7 +78,7 @@ Scripting tags that are most often used to embed malicious content include `<SCR
 Most information about XSS involves dealing with `<SCRIPT>` tags, but other HTML tags can also be used for nefarious purposes.
 Consider the `<FORM>` HTML element – by inserting a new form, an attacker could trick 
 visitors to the site into revealing sensitive information by adding new information fields, or modifying the behaviour of an existing form. 
-Other HTML tags may be inserted to alter the appearance and behaviour of a page - potentially discrediting the website. This could take the form of something subtle such as adjusting annual accounts through to porn pop-ups.
+Other HTML tags may be inserted to alter the appearance and behaviour of a page - potentially discrediting the website. This could take the form of something subtle, such as adjusting annual accounts, or something extreme such as porn pop-ups.
 
 Hopefully the above points make it clear that XSS is no joke. So how do we defend against it?
 
@@ -94,7 +93,7 @@ action other than visiting the site in order to be attacked. For this reason, a 
 
 2. _Reflective XSS_ occurs when a particular page can be used to execute arbitrary code, but it does not persist the attack code across multiple requests. 
 Since an attacker needs to send a user to a specially crafted URL for the code to run, reflective XSS usually requires some kind of email trickery ("social engineering")
-to convince people to fall into the trap. For this reason, it is a less of a threat (though still needs to be taken seriously).
+to convince people to fall into the trap. For this reason, it is less of a threat (though still needs to be taken seriously).
 
 Here are a few key defensive measures one should employ to reduce the liklihood of XSS vulnerability:
 
@@ -136,9 +135,9 @@ Always Validate Numbers.
 ***
 
 
-This brief list is not exhaustive, but hopefully will alert the reader to some of the most obvious areas where they can improve their website
+This brief list is not exhaustive, but hopefully will alert the reader to some of the most obvious ways they can improve their website
 security. 
-For a more comprehensive prevention guide list, see the [OWASP XSS Prevention Cheat Sheet](https://www.owasp.org/index.php/XSS_Prevention_Cheat_Sheet#Introduction)
+For a more comprehensive XSS prevention guide, see the [OWASP XSS Prevention Cheat Sheet](https://www.owasp.org/index.php/XSS_Prevention_Cheat_Sheet#Introduction)
 
 
 
