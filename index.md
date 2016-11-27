@@ -14,6 +14,6 @@ tagline: Developer
 
 <div class="row">
 <div class="button-guardian col-xs-12">
-	<a id="goPortfolio" href="/portfolio.html"><button id="processing-search-button">View Portfolio</button></a>
+	<a id="goPortfolio" href="/portfolio"><button id="processing-search-button">View Portfolio</button></a>
 </div>
 </div>
