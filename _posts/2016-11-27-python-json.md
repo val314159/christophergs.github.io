@@ -1,3 +1,11 @@
+---
+layout: post
+title: Using the Python `json` Library
+category : Python
+tagline: A Basic Guide
+tags : [Python, web development]
+---
+
 # Using the Python `json` Library: A Basic Guide
 
 *This guide uses Python 3*
