@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using the Python `json` Library
+title: Using the Python json Library
 category : Python
 tagline: A Basic Guide
 tags : [Python, web development]
@@ -21,7 +21,7 @@ Understanding how this module works will become very important for transforming 
 taking a bit of time to understand the fundamentals of this module, you are going to spend a lot of time debugging
 errors such as:
 
-####`<foo> is not JSON serializable`
+#### `<foo> is not JSON serializable`
 
 
 There are two key methods to understand:
@@ -38,7 +38,7 @@ The descriptior `json.dumps` is:
 
 >Serialize*obj*to a JSON formatted `str`
 
-#####Why do we need to serialze?
+##### Why do we need to serialize?
 
 Serialization is one particular type of encoding process, there are other ways to encode, but this is the one the `json` library
 is concerned with. Serialization converts data, potentially objects, arrays or similar, into a single string. This
@@ -49,7 +49,7 @@ that data arrives, it will be serialized (encoded). So for you to make sense of 
 you want, you will probably have to decode it. If you want later want to send the data onwards, you may 
 need to serialize the data once again. 
 
-######Examples
+###### Examples
 
 Now that we understand what we are trying to do and why, let's look at some examples.
 
@@ -80,7 +80,7 @@ fixed_lod = json.loads(serialized_lod)
 # --> [{'foo': 'bar'}, {'abc': 123}]
 ```
 
-######Common Errors
+###### Common Errors
 
 1. TypeError: the JSON object must be str, not <data structure that is not a str>
 
@@ -126,7 +126,7 @@ json.dumps(MyClass)
 #TypeError: <class '__main__.MyClass'> is not JSON serializable
 ```
 
-######The Encoder
+###### The Encoder
 
 It's worth noting that the JSONEncoder (behind `json.dumps`) makes the following conversions:
 
