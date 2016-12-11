@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69523832-8e12-4a29-9aed-3b9de129fe61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-12-11-python-setuptools.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -269,6 +268,21 @@
       <option name="presentableId" value="Default" />
       <updated>1480250636267</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add setuptools blog post">
+      <created>1481459325387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481459325387</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add setuptools blog post">
+      <created>1481459338952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481459338952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -296,6 +310,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add setuptools blog post" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add setuptools blog post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
