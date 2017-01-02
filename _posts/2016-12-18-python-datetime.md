@@ -89,7 +89,7 @@ print(bar)
 When you first use `datetime`, you are likely to spend a while messing around with `strftime` and `strptime`. It's
 worth understanding exactly what these are doing to reduce wasted effort.
 
-All `date`, `time` and `datetime` support a `strftime()` method. This creates a string representation of the given object with an explicit format (that you specify). The format codes are a little counter intuitive, and it is [well worth reviewing them](http://strftime.org/) to avoid long debugging sessions
+All `date`, `time` and `datetime` support a `strftime()` method. This creates a string representation of the given object with an explicit format (that you specify). The format codes are a little counter intuitive, and it is [well worth reviewing them](http://strftime.org/) to avoid long debugging sessions.
 
 Conversely, the `strptime()` method creates a `datetime` object from a string representation of a date and time, with the format passed in to help the method understand the string.
 
