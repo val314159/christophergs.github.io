@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview of Python Generators: Part 1
+title: Overview of Python Generators Part 1
 category : Python 
 tagline: A Basic Guide
 tags : [Python, Python Key Concepts]
