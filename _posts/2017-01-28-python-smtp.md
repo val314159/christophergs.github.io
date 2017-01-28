@@ -6,8 +6,6 @@ tagline: A Basic Guide
 tags : [Python, Python Standard Library, web development]
 ---
 
-# Sending Emails with Python: smptlib and smtpd 
-
 ### Introduction
 
 This is a basic guide for an area where I wasn't able to find any particularly great tutorials,

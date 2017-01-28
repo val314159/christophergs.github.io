@@ -6,8 +6,6 @@ tagline: A Basic Guide
 tags : [Python, Python Key Concepts]
 ---
 
-# Python Generators
-
 ### Introduction
 
 Most Python developers know about generators, but don't really use them very often. They are
