@@ -20,14 +20,14 @@ description: ""
 
 <h4>Good working knowledge</h4>
 
-<p>Python Data Analysis/Machine Learning (Pandas, scikit-learn), React.js, D3.js</p>
+<p>Python Data Analysis/Machine Learning (Pandas, scikit-learn), React.js, D3.js, Docker</p>
 <p>NoSQL: MongoDB, SQL: Postgres </p>
 
 <br>
 
 <h4>Basic development</h4>
 
-<p>Android, Apache Spark</p>
+<p>Android, Apache Spark, Apache Kafka</p>
 
 <br>
 
@@ -35,6 +35,27 @@ description: ""
 
 <br>
 
+<p><b>October 2013 - Present: Freelance Developer</b></p>
+<p>Building interesting things, some of which can be seen in my <a href="/portfolio">portfolio</a>.</p>
+
+<br>
+
+<p><b>November 2016 - Present: Zopa (London)</b></p>
+
+<p><em>Software Engineer</em></p>
+<p>Working on a wide range of Python microservices, including production machine learning
+code.</p>
+
+<br>
+
+
+<p><b>October 2013 - November 2016: Bupa China (Beijing)</b></p>
+
+<p><em>Development Manager - Digital</em></p>
+<p>Responsible for project managing both IT and Digital workstreams for greenfield
+healthcare clinic startups in China.</p>
+
+<br>
 
 <p><b>March 2013 - October 2013: Bupa UK</b></p>
 
@@ -44,18 +65,6 @@ one of the world's largest healthcare companies. Responsible for
 front end development on flagship UK websites. Worked with onshore and offshore teams to
 ensure that the company's web experience was of the highest quality.</p>
 
-<br>
-
-<p><b>October 2013 - Present: Bupa China (Beijing)</b></p>
-
-<p><em>Development Manager - Digital</em></p>
-<p>Responsible for project managing both IT and Digital workstreams for greenfield
-healthcare clinic startups in China.</p>
-
-<br>
-
-<p><b>October 2013 - Present: Freelance Developer</b></p>
-<p>Building interesting things, some of which can be seen in my <a href="/portfolio">portfolio</a>.</p>
 
 <br>
 

@@ -9,6 +9,18 @@ description: ""
 <h2>Selected Work</h2>
 
 <section class="portfolio-piece">
+	<h4><a href="http://nomadsaver.com" target="_blank"><b><i>Nomad Saver</i> Global Early Retirement Calculator</b></a></h4>
+	<br>
+	<p><b>Description:</b> 
+	<br>
+	I am currently actively developing this tool to calulate differing retirement timeframes depending
+	geographic cost-of-living choices</p>
+
+	<p>I'll post screenshots once the project is stable</p>
+
+</section>
+
+<section class="portfolio-piece">
 	<h4><b><i>Rolltec</i> Wearable for Martial Artists</b></h4>
 	<br>
 	<p><b>Description:</b> 
@@ -24,7 +36,8 @@ description: ""
 
 	<p>
 
-	I am no longer actively developing this project. <a href="https://github.com/ChristopherGS/rolltec_motion">I have open sourced all code and data on my github.</a>
+	I am no longer actively developing this project. <a href="https://github.com/ChristopherGS/rolltec_motion">I have open sourced all code and data on my github.</a> A full academic write up of the algorithms used can
+	be found <a href="/python/2017/02/26/RollTech-paper/">here on my blog.</a>
 
 	Unfortunately, attempts to crowdfund the project were unsuccessful. <a href="https://www.kickstarter.com/projects/1489178162/rolltec-grappling-the-first-wearable-made-for-grap/">You can see the kickstarter campaign here.</a>
 

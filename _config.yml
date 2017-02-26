@@ -91,7 +91,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : facebook
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -109,12 +109,12 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    provider : google
+    provider : googleUA
     google :
         tracking_id : 'UA-***'
     googleUA :
-        tracking_id : 'UA-***'
-        property_name : 'PROPERTY NAME'
+        tracking_id : 'UA-92670550-1'
+        property_name : 'christophergs.github.io'
     getclicky :
       site_id : 
     mixpanel :
