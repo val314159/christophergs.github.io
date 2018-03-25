@@ -15,7 +15,7 @@ description: ""
 
 	<section class="about-text">
 
-		<p>I'm 29, from the UK, and work as a software engineer for the fintech company Zopa. From 2013-2016
+		<p>I'm 30, from the UK, and work as a software engineer for the healthcare AI company Babylon Health. From 2013-2016
 		I was fortunate enough to work in Beijing. I miss the dumplings a lot.
 
 		One of my favorite quotes is from Carl Friedrich Gauss:
@@ -33,10 +33,10 @@ description: ""
 
 		<br><br>
 
-		In the past I've spent time working on machine learning projects (I also do a lot of machine learning work as part of my day job), such as a <a href="https://www.kickstarter.com/projects/1489178162/rolltec-grappling-the-first-wearable-made-for-grap/" target="_blank">prototype wearable for martial artists</a> which has
+		In my current and previous roles I've spent time working on machine learning and AI projects. This interest is was born of some of my personal projects such as a <a href="https://www.kickstarter.com/projects/1489178162/rolltec-grappling-the-first-wearable-made-for-grap/" target="_blank">prototype wearable for martial artists</a> which
 		allowed me to develop my understanding of scikit-learn and the scientific python stack.
 
-		I've also recently built customer-facing web applications using React. I'll definitely be using this more, as React is brilliant.
+		I've also recently built customer-facing web and mobile applications using React and React-Native. I'll definitely be using this more, as React is brilliant.
 
 		<br><br>
 

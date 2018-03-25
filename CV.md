@@ -6,54 +6,72 @@ description: ""
 ---
 {% include JB/setup %}
 
-<h3>Skills</h3>
+### Skills
 
 <br>
 
-<h4>Proficient</h4>
+#### Proficient
 
-<p>Python (Flask, Django), Javascript (JQuery, Backbone.js), Node.js (Express), HTML5 </p>
+**Python**: Web development (Flask, Django, Nameko), Python Data Analysis, Machine learning, AI development (Pandas, Numpy, Scikit-learn, Keras, SpaCy)
 
-<p>Version Control: Git</p>
-
-<br>
-
-<h4>Good working knowledge</h4>
-
-<p>Python Data Analysis/Machine Learning (Pandas, scikit-learn), React.js, D3.js, Docker</p>
-<p>NoSQL: MongoDB, SQL: Postgres </p>
+**Version Control**: Git
 
 <br>
 
-<h4>Basic development</h4>
+#### Good working knowledge
 
-<p>Android, Apache Spark, Apache Kafka</p>
+**Javascript/HTML5**: (React, React-Native, JQuery, Backbone.js, D3.js) 
+
+**Node.js** (Express)
+
+**OS/Containers**: Linux, Windows, OS X, VMWare, Docker
+
+**SQL**: MSSQL, Postgres, MySQL
+
+**NoSQL**: MongoDB 
 
 <br>
 
-<h3>Work Experience</h3>
+#### Basic development
+<p>Java, .NET, Apache Kafka</p>
 
 <br>
 
-<p><b>October 2013 - Present: Freelance Developer</b></p>
+### Work Experience
+
+<br>
+
+<p><b>October 2013 - Present: Freelance Software Consultant</b></p>
 <p>Building interesting things, some of which can be seen in my <a href="/portfolio">portfolio</a>.</p>
 
 <br>
 
-<p><b>November 2016 - Present: Zopa (London)</b></p>
+<p><b>March 2018 - Present: Babylon Health (London)</b></p>
 
-<p><em>Software Engineer</em></p>
-<p>Working on a wide range of Python microservices, including production machine learning
-code.</p>
+<p><em>Software Engineer (AI)</em></p>
+- Working on Python microservices at one of the most advanced healthcare AI startups in the world.
 
 <br>
 
+<p><b>November 2016 - Feb 2018: Zopa (London)</b></p>
+
+<p><em>Software Engineer</em></p>
+- Streamlined and maintained a pipeline of over a dozen Python microservices which
+perform machine learning for fraud detection and credit risk analysis on over GBP 1 billion of personal loans per year.
+
+<br>
 
 <p><b>October 2013 - November 2016: Bupa China (Beijing)</b></p>
 
 <p><em>Development Manager - Digital</em></p>
-<p>Responsible for project managing both IT and Digital workstreams for greenfield
-healthcare clinic startups in China.</p>
+
+Responsible for project managing both IT and Digital workstreams for greenfield healthcare provision market entry into mainland China
+
+- Management of 20+ developers, consultants and creatives
+- EMR contract negotiation and implementation
+- Mobile + wechat app concept development, design and implementation management
+
+The [Bupa Medical Center in Guangzhou](https://www.bupa.com.cn/) is now one of the premier private healthcare clinics in Southern China
 
 <br>
 
