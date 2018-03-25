@@ -134,7 +134,7 @@ Home Page
 ===============================*/
 
 .my-photo {
-	background-image: url("assets/themes/bootstrap/resources/images/portrait.jpg");
+	background-image: url("assets/themes/bootstrap/resources/images/chris_portrait.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
@@ -253,7 +253,7 @@ About Page
 
 
 	.my-photo {
-	background-image: url("assets/themes/bootstrap/resources/images/portrait.jpg");
+	background-image: url("assets/themes/bootstrap/resources/images/chris_portrait.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
