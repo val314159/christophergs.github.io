@@ -8,7 +8,7 @@ analytics: true
 <div class="row">
 	<div class="col-xs-2"></div>
 	<div class="desc col-xs-8">
-		<h2 class="text-center">I love building things with software</h2>
+		<h2 class="text-center">I love building and optimizing things with software</h2>
 	</div>
 	<div class="col-xs-2"></div>
 </div>
