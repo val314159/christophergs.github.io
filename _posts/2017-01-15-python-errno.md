@@ -123,7 +123,7 @@ But in the real world, the far more common case is to:
 
  - Print or Log the exception so it doesn't get lost. (good!)
 
- - Reraise the exception so (better!)
+ - Reraise the exception so someone else can deal with it (better!)
  
 *I would suggest a good way of side-stepping handling all possible `OSErrors` is as follows:*
 
