@@ -105,3 +105,45 @@ os.strerror(errno.EBADF)`
 
 Now we have achieved cross-platform clarity with our error
 handling.
+
+---
+
+##### Note from @val314159:
+
+*What if you don't handle all the possible errors that come in?*
+
+The above code will fall thru in all non-handled cases.  This may be desirable, but in practice (i.e. production code maintained by a team), you usually will comment this so no one "corrects" the error later on.
+
+```buildoutcfg
+    else:
+        pass # do nothing, eat the exception
+```
+
+But in the real world, the far more common case is to:
+
+ - Print or Log the exception so it doesn't get lost. (good!)
+
+ - Reraise the exception so (better!)
+ 
+*I would suggest a good way of side-stepping handling all possible `OSErrors` is as follows:*
+
+```buildoutcfg
+import errno
+import os
+
+try:
+    my_file = open('no.txt')
+except IOError, e:
+    # 'No such file or directory'
+    if e.errno == 2:
+        print(e.strerror)
+        print("this will print")
+        # handle one way
+    elif e.errno == 9:
+        print(e.strerror)
+        print("this will not print")
+        # handle another way
+    else:
+        raise # let someone else deal with this
+```
+
